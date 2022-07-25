@@ -1,2 +1,10 @@
 redbridegesoftwaremobile
 copyright @2022
+token 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
+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
+git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
+git push https://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@github.com/redbridegesoftwaremobile/atom.git
+
+$ git clone https://github.com/username/repo.git
+Username: your_username
+Password: your_token
