@@ -8,3 +8,5 @@ git push https://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@github.com/redbrideges
 $ git clone https://github.com/username/repo.git
 Username: your_username
 Password: your_token
+
+chromebook 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
