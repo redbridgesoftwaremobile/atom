@@ -16,8 +16,8 @@ public class LambdaX {
         products.add(new Product("p5", "laptop 3", 7000, 9, "Manufacturer 2")); 		
         System.out.println("Product List"); 		
         
-        products.forEach(product -> { 
-            System.out.println(product.toString()); 			         
+        products.forEach(p -> { 
+            System.out.println(p.toString()); 			         
             System.out.println("======================Example001-foreach"); 		
         });
         
