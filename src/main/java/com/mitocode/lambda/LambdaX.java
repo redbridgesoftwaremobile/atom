@@ -14,6 +14,7 @@ public class LambdaX {
         products.add(new Product("p3", "laptop 1", 1200, 6, "Manufacturer 2")); 		
         products.add(new Product("p4", "laptop 2", 7000, 9, "Manufacturer 2")); 		
         products.add(new Product("p5", "laptop 3", 7000, 9, "Manufacturer 2")); 		
+        
         System.out.println("Product List"); 		
         
         products.forEach(p -> { 
@@ -22,14 +23,17 @@ public class LambdaX {
         });
         
         System.out.println("Exsmple002-filter");
-        /*
-        products.stream().filter(p -> p.getId().equalsIgnoreCase("p1") 					
-        || p.getId().equalsIgnoreCase("p3"))
-        .forEach(p -> {
-            System.out.println(p.toString()); 				         
-            System.out.println("======================"); 			
-        }); 		
         
+        System.out.println("Or Condition");
+        
+        products.stream()
+        .filter(p -> p.getId().equalsIgnoreCase("p1")
+               || p.getId().equalsIgnoreCase("p3"))
+        .forEach(p->{
+               System.out.println(p.toString()); 				         
+               System.out.println("======================"); 			
+        }); 		
+        /*
         System.out.println("And Condition"); 		
         
         products.stream().filter(p -> p.getPrice() > 700 && p.getPrice() < 7000) 			
