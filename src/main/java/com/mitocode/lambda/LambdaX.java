@@ -8,7 +8,7 @@ public class LambdaX {
     public static void main(String[] args) {
         System.out.println("Exsmple001-foreach");
         
-        List products = new ArrayList(); 		
+        List<Product> products = new ArrayList<Product>(); 		
         products.add(new Product("p1", "mobile 1", 1000, 2, "Manufacturer 1")); 		
         products.add(new Product("p2", "mobile 2", 700, 4, "Manufacturer 1")); 		
         products.add(new Product("p3", "laptop 1", 1200, 6, "Manufacturer 2")); 		
