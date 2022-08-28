@@ -22,9 +22,9 @@ public class LambdaX {
             System.out.println("======================Example001-foreach"); 		
         });
         
-        System.out.println("Exsmple002-filter");
+        System.out.println("Exsmple002-filter=====");
         
-        System.out.println("Or Condition");
+        System.out.println("Or Condition=====");
         
         products.stream()
         .filter(p -> p.getId().equalsIgnoreCase("p1")
@@ -33,8 +33,8 @@ public class LambdaX {
                System.out.println(p.toString()); 				         
                System.out.println("======================"); 			
         }); 		
-        /*
-        System.out.println("And Condition"); 		
+        
+        System.out.println("And Condition====="); 		
         
         products.stream().filter(p -> p.getPrice() > 700 && p.getPrice() < 7000) 			
         .forEach(p -> {
@@ -42,7 +42,7 @@ public class LambdaX {
             System.out.println("======================"); 			
         }); 
 
-        */
+        
     }
     
     
