@@ -1,4 +1,4 @@
-package com.mitocode.lambda;
+//package com.mitocode.lambda;
 
 public class LambdaX {
     
