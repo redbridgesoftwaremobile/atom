@@ -6,7 +6,7 @@ import java.util.List;
 public class LambdaX {
     
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Exsmple001-foreach");
         
         List products = new ArrayList(); 		
         products.add(new Product("p1", "mobile 1", 1000, 2, "Manufacturer 1")); 		
@@ -18,7 +18,7 @@ public class LambdaX {
         
         products.forEach(product -> { 
             System.out.println(product.toString()); 			         
-            System.out.println("======================"); 		
+            System.out.println("======================Example001-foreach"); 		
         });
     }
     
