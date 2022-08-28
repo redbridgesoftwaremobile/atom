@@ -20,6 +20,30 @@ public class LambdaX {
             System.out.println(product.toString()); 			         
             System.out.println("======================Example001-foreach"); 		
         });
+        
+        System.out.println("Exsmple002-filter");
+        
+        products.stream()
+        .filter(p -> p.getId().equalsIgnoreCase("p1") 					
+        || p.getId().equalsIgnoreCase("p3"))
+        .forEach(p -> {
+            System.out.println(p.toString()); 				         
+            System.out.println("======================"); 			
+        }); 		
+        
+        System.out.println("And Condition"); 		
+        
+        products.stream()
+        .filter(p -> p.getPrice() > 700 && p.getPrice() < 7000) 			
+        .forEach(p -> {
+            System.out.println(p.toString()); 				         
+            System.out.println("======================"); 			
+        }); 
+
+        
     }
+    
+    
+    
     
 }
