@@ -11,3 +11,7 @@ Password: your_token
 
 chromebook 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
 Tablet01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Tablet01
+
+
+https://picodotdev.github.io/blog-bitix/2019/01/comandos-para-compilar-codigo-fuente-y-ejecutar-programas-java/
+
