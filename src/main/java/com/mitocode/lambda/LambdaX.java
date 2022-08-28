@@ -22,7 +22,7 @@ public class LambdaX {
         });
         
         System.out.println("Exsmple002-filter");
-        
+        /*
         products.stream().filter(p -> p.getId().equalsIgnoreCase("p1") 					
         || p.getId().equalsIgnoreCase("p3"))
         .forEach(p -> {
@@ -38,7 +38,7 @@ public class LambdaX {
             System.out.println("======================"); 			
         }); 
 
-        
+        */
     }
     
     
